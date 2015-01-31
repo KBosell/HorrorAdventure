@@ -1,0 +1,81 @@
+body {
+	background-color:#181024;
+	width:320px;
+	height:568px;
+	background-image:url(background_image.png);
+	background-repeat:no-repeat;
+	background-size:320px;
+
+
+}
+
+
+.container {
+
+}
+
+.Start {
+	width:250px;
+	margin:auto;
+	margin-top:55px;
+}
+
+.buttons {
+	width:260px;
+	margin:auto;
+	margin-top:300px;
+
+}
+
+.Story {
+	width:250px;
+	height:350px;
+	overflow:hidden;
+	margin:auto;
+	color:white;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size:15px;
+}
+
+.Choose a {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	/*margin-left:25px;*/
+}
+
+.Choose {
+	width:150px;
+	margin:auto;
+	margin-top:100px;
+	margin-left:65px;
+}
+.ChooseA {
+	float:left;
+}
+.ChooseB {
+	float:right;
+}
+
+.Die a {
+	text-decoration:none;
+	color:red;
+	font-size:50px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.Die {
+	width:150px;
+	margin:auto;
+	margin-top:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
