@@ -6,77 +6,114 @@ body {
 	background-repeat:no-repeat;
 	background-size:320px;
 	color:white;
+	font-family: 'Gloria Hallelujah', cursive;
 
 
 }
 
+/*~~~~~~~~~~~
+| Main Page
+~~~~~~~~~~~~~*/
 
-.container {
+.main {
+	width:250px;
+	margin:auto;
+	margin-top:100px;
+}
+
+.buttons {
+	margin-top:200px;
+}
+
+
+/*~~~~~~~~~~~~
+| Page.Start
+~~~~~~~~~~~~~~*/
+
+
+#page {
 	/*min-width:320px;
 	max-width:900px;
 	width:90%;*/
 
 }
 
-.Start {
+#page {
 	width:250px;
 	margin:auto;
-	margin-top:55px;
 }
 
-.buttons {
+/*#story {
 	width:260px;
-	margin:auto;
-	margin-top:300px;
-
-}
-
-.Story {
-	width:250px;
 	height:350px;
-	overflow:hidden;
+	overflow:scroll;
 	margin:auto;
-	color:white;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-size:15px;
+}*/
+
+#mid {
+	width:260px;
+	height:500px;
+	overflow:scroll;
+	margin:auto;
+	margin-top:15px;
 	font-size:15px;
 }
 
-.Choose a {
-	text-decoration:none;
-	color:white;
-	font-size:20px;
-	/*margin-left:25px;*/
+::-webkit-scrollbar { 
+    display: none; 
 }
 
-.Choose {
-	width:150px;
+
+#choiceForm {
+	/*width:150px;*/
 	margin:auto;
-	margin-top:100px;
-	margin-left:65px;
-}
-.ChooseA {
-	float:left;
-}
-.ChooseB {
-	float:right;
+	text-align:center;
+	/*margin-left:65px;*/
 }
 
-.Die a {
-	text-decoration:none;
+/*#choiceForm input[type="submit"].plain {
+    border: 0;
+    background: transparent; 
+}*/
+
+/*~~~~~~~~~~~~~~~~
+|Page Specific Js
+~~~~~~~~~~~~~~~~~*/
+
+#TheEnd {
+	font-size:40px;
 	color:red;
-	font-size:50px;
-	font-family: 'Gloria Hallelujah', cursive;
-}
-.Die {
-	width:150px;
-	margin:auto;
-	margin-top:150px;
+	text-align:center;
+	font-family:'YouDied';
 }
 
+#TheEnd2 {
+	font-size:40px;
+	color:red;
+	text-align:center;
+	font-family:'YouDied';
 
+	margin-top:-25px;
+}
 
+#DoYou {
+	text-align:center;
+	font-size:25px;
+}
 
+/*~~~~~~~~~~~~
+|Font Familys
+~~~~~~~~~~~~~*/
 
+@font-face {
+	font-family: 'YouDied';
+	src:url(../_fonts/Bloody/YouDied.ttf);
+}
+@font-face {
+	font-family: 'GloriaHallelujah';
+	src:url(../_fonts/Gloria_Hallelujah/GloriaHallelujah.ttf);
+}
 
 
 

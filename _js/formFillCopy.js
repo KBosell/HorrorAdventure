@@ -23,8 +23,8 @@ function init(){
 function changePage(loadPage){
 	switch(loadPage){
 		case 0:
-			document.getElementById("buttonA").innerHTML = "ERROR - CASE 0";
-			document.getElementById("buttonB").innerHTML = "ERROR - CASE 0";
+			document.getElementById("submitA").innerHTML = "ERROR - CASE 0";
+			document.getElementById("submitB").innerHTML = "ERROR - CASE 0";
 			document.getElementById("title").innerHTML = "ERROR - CASE 0";
 			document.getElementById("story").innerHTML = "ERROR - CASE 0";
 		break;
@@ -32,9 +32,9 @@ function changePage(loadPage){
 		case 1: //1-Story Start
 			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
 			document.getElementById("buttonA").innerHTML = 
-				"<input type=\"radio\" name=\"choice\" value=\"2\" checked> Go inside";
+				"<input type=\"button\" name=\"choice\" value=\"2\"> Go inside";
 			document.getElementById("buttonB").innerHTML = 
-				"<input type=\"radio\" name=\"choice\" value=\"3\"> Walk away";
+				"<input type=\"button\" name=\"choice\" value=\"3\"> Walk away";
 			document.getElementById("title").innerHTML = 
 				"";
 			document.getElementById("story").innerHTML = 
@@ -44,7 +44,6 @@ function changePage(loadPage){
 		case 2: //2-Go Inside
 			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
 			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(http://lorempixel.com/320/568/)';
-
 			document.getElementById("buttonA").innerHTML = 
 				"<input type=\"radio\" name=\"choice\" value=\"4\" checked> Keep going forward";
 			document.getElementById("buttonB").innerHTML = 
@@ -220,7 +219,7 @@ function changePage(loadPage){
 			document.getElementById("title").innerHTML = 
 				"";
 			document.getElementById("story").innerHTML = 
-				"Something inside of you said to go downstairs. You start to walk down and the giggles and laughs around you start growing louder. All of a sudden you feel hands on your back and they push you off the stairs. Your feet loose their ground and you fall. Each step hits you and then you hear a crack before your worlds goes black.</br></br></br><div id=\"TheEnd2\">YOU DIED</div>";
+				"Something inside of you said to go downstairs. You start to walk down and the giggles and laughs around you start growing louder. All of a sudden you feel hands on your back and they push you off the stairs. Your feet loose their ground and you fall. Each step hits you and then you hear a crack before your worlds goes black.</br></br></br><div id=\"TheEnd\">YOU DIED</div>";
 		break;
 
 		case 17: //10-Face it
@@ -390,8 +389,8 @@ function changePage(loadPage){
 		
 		
 		default:
-			document.getElementById("buttonA").innerHTML = "ERROR - CASE default";
-			document.getElementById("buttonB").innerHTML = "ERROR - CASE default";
+			document.getElementById("submitA").innerHTML = "ERROR - CASE default";
+			document.getElementById("submitB").innerHTML = "ERROR - CASE default";
 			document.getElementById("title").innerHTML = "ERROR - CASE default";
 			document.getElementById("story").innerHTML = "ERROR - CASE default";
 		break;
