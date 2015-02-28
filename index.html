@@ -1,29 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Horror</title>
-	<link rel="stylesheet" type="text/css" href="_css/styles.css">
+	<head>
+		<title>
+			Horror
+		</title>
+	<link rel="stylesheet" type="text/css" href="../_css/styles.css">
+	<link rel="shortcut icon" href="images/HexSolid1-x16.png">
+	</head>
 
-</head>
-<body>
-	<div class="container">
-
-		<article class="main">	
-			<div class="Start">
-				<img src="_images/Start_Menu/CanYou.png" height="45" width="220">
-			</div>
-	
-			<div class="buttons">
-				<a href="_pages/Start.html"><img src="_images/Start_Menu/Start.png" height="45" width="220"></a>
+	<body  onload="init();">
+		<div id = "page">
+			<div id="top">
 			</div>
 
-		</article>
-
-		<footer>
+			<div>
+				<audio loop autoplay id="Sound"> 
+					<source src="" type="audio/mpeg">
+				</audio>
+			</div>
 			
-		</footer>
+			<div id="mid">
+				<div id="splashImage">
+				</div>
+				<div id="mainText">
+					<p id="title">
+						Loading title...
+					</p>
+						<p id="story">
 
-	</div>
-
-</body>
+						Loading story...
+						</p>
+				</div>
+				<div id="choiceForm">
+					<form name="theChoiceForm" action="Start.html" method="GET" onsubmit="">
+						<label id="buttonA" >
+							<input type="radio" name="choice" value="2" checked>
+							Loading choice...
+						</label>
+						
+						<br>
+						
+						<label id="buttonB" >
+							<input type="radio" name="choice" value="4">
+							Loading choice...
+						</label>
+						
+						<br>
+						
+						<label>
+							<button name="subject" type="submit" value="HTML" style="">
+							Choose
+							</button>
+						<label>
+						
+					</form>
+				</div>
+			</div>	
+		
+			<div id="bottom">
+				<div class="CLEAN"></div>
+			</div>
+		</div>
+		<div class="CLEAN"></div>
+	</body>
+	<script type="text/javascript" src="../_js/formFill.js"></script>
+	<script type="text/javascript" src="../_js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../_js/formRead.js"></script>
 </html>
