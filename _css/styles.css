@@ -1,27 +1,20 @@
-body {
+html {
+	width: 1080px;
+	height: 1920px;
 	background-color:#181024;
-	width:320px;
-	height:568px;
+	padding: 0px;
+	margin: 0px;
 	background-image:url(background_image.png);
 	background-repeat:no-repeat;
 	background-size:320px;
 	color:white;
 	font-family: 'Gloria Hallelujah', cursive;
-
-
 }
 
 /*~~~~~~~~~~~~
 | Page.Start
 ~~~~~~~~~~~~~~*/
 
-
-#page {
-	/*min-width:320px;
-	max-width:900px;
-	width:90%;*/
-
-}
 
 #page {
 	width:250px;
@@ -97,9 +90,16 @@ body {
 	font-size:25px;
 }
 
+
 /*~~~~~~~~~~~~
 |Font Familys
 ~~~~~~~~~~~~~*/
+
+.CLEAN{
+	clear:both;
+}
+
+
 
 @font-face {
 	font-family: 'YouDied';
