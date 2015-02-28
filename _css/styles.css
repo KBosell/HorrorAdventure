@@ -1,13 +1,14 @@
-body {
+html {
+	width: 1080px;
+	height: 1920px;
 	background-color:#181024;
-	width:320px;
-	height:568px;
+	padding: 0px;
+	margin: 0px;
 	background-image:url(background_image.png);
 	background-repeat:no-repeat;
 	background-size:320px;
 	color:white;
 	font-family: 'Gloria Hallelujah', cursive;
-
 
 }
 
@@ -15,7 +16,8 @@ body {
 | Main Page
 ~~~~~~~~~~~~~*/
 
-.main {
+
+.Start {
 	width:250px;
 	margin:auto;
 	margin-top:100px;
@@ -93,8 +95,10 @@ body {
 	color:red;
 	text-align:center;
 	font-family:'YouDied';
+}
 
-	margin-top:-25px;
+.CLEAN{
+	clear:both;
 }
 
 #DoYou {
