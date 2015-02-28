@@ -11,21 +11,6 @@ body {
 
 }
 
-/*~~~~~~~~~~~
-| Main Page
-~~~~~~~~~~~~~*/
-
-.main {
-	width:250px;
-	margin:auto;
-	margin-top:100px;
-}
-
-.buttons {
-	margin-top:200px;
-}
-
-
 /*~~~~~~~~~~~~
 | Page.Start
 ~~~~~~~~~~~~~~*/
@@ -72,14 +57,24 @@ body {
 	/*margin-left:65px;*/
 }
 
-/*#choiceForm input[type="submit"].plain {
-    border: 0;
-    background: transparent; 
-}*/
 
 /*~~~~~~~~~~~~~~~~
 |Page Specific Js
 ~~~~~~~~~~~~~~~~~*/
+
+.StartImg {
+	margin-left:45px;
+	margin-top:50px;
+	font-family:'Face Your Fears';
+	font-size:40px;
+}
+
+.StoryName {
+/*	margin-left:30px;*/
+	margin-top:150px;
+	font-family:'Face Your Fears';
+	font-size:30px;
+}
 
 #TheEnd {
 	font-size:40px;
@@ -110,9 +105,20 @@ body {
 	font-family: 'YouDied';
 	src:url(../_fonts/Bloody/YouDied.ttf);
 }
+
 @font-face {
 	font-family: 'GloriaHallelujah';
 	src:url(../_fonts/Gloria_Hallelujah/GloriaHallelujah.ttf);
+}
+
+@font-face {
+	font-family: 'Horror Sketch';
+	src:url(../_fonts/Horror_Sketch/Horror Sketch.ttf);
+}
+
+@font-face{
+	font-family:'Face Your Fears';
+	src:url(../_fonts/Face_Your_Fears/Face Your Fears.ttf);
 }
 
 
