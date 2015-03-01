@@ -17,10 +17,10 @@ function init(){
 		page = parseInt(setPage);
 	}
 
-	changePage(page)
+	changePage(page);
 }
 
-function changePage(loadPage){
+function changePage(loadPage){ 
 	switch(loadPage){
 		case 0:
 			document.getElementById("buttonA").innerHTML = "ERROR - CASE 0";
@@ -32,7 +32,7 @@ function changePage(loadPage){
 		case 1: //Start
 			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
 			document.getElementById("Sound").innerHTML =
-				"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+				"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -46,9 +46,7 @@ function changePage(loadPage){
 		case 2: //1-Story Start
 			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
 			document.getElementById("Sound").innerHTML =
-				"<source src=\"../_audio/Purr.mp3\" type=\"audio/mpeg\">";
-			document.getElementById("Sound").innerHTML =
-				"<source src=\"../_audio/Purr.mp3\" type=\"audio/mpeg\">";
+				"<source src=\"_audio/Purr.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"<input type=\"radio\" name=\"choice\" value=\"3\" checked> Go inside";
 			document.getElementById("buttonB").innerHTML = 
@@ -88,7 +86,7 @@ function changePage(loadPage){
 		break;
 		
 		case 5: //3-Keep Going Forward
-			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(../_images/Backgrounds/School_Hallway.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
@@ -130,7 +128,7 @@ function changePage(loadPage){
 		break;
 
 		case 8: //4-You Eat The Mushroom (Death)
-			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(../_images/Backgrounds/Death.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Death.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
