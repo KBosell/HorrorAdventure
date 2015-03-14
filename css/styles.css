@@ -7,7 +7,7 @@ body {
     background-position: center;
  	background-size: auto;
 	color:white;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'GloriaHallelujah', cursive;
 
 }
 
@@ -65,14 +65,14 @@ body {
 .StartImg {
 	margin-left:45px;
 	margin-top:50px;
-	font-family:'Face Your Fears';
+	font-family:'FaceYourFears';
 	font-size:40px;
 }
 
 .StoryName {
 /*	margin-left:30px;*/
 	margin-top:150px;
-	font-family:'Face Your Fears';
+	font-family:'FaceYourFears';
 	font-size:30px;
 }
 
@@ -110,22 +110,22 @@ body {
 
 @font-face {
 	font-family: 'YouDied';
-	src:url(../fonts/Bloody/YouDied.ttf);
+	src:url(../fonts/YouDied.ttf);
 }
 
 @font-face {
 	font-family: 'GloriaHallelujah';
-	src:url(../fonts/Gloria_Hallelujah/GloriaHallelujah.ttf);
+	src:url(../fonts/GloriaHallelujah.ttf);
 }
 
 @font-face {
 	font-family: 'Horror Sketch';
-	src:url(../fonts/Horror_Sketch/Horror Sketch.ttf);
+	src:url(../fonts/HorrorSketch.ttf);
 }
 
 @font-face{
 	font-family:'Face Your Fears';
-	src:url(../fonts/Face_Your_Fears/Face Your Fears.ttf);
+	src:url(../fonts/FaceYourFears.ttf);
 }
 
 
