@@ -7,7 +7,7 @@ body {
     background-position: center;
  	background-size: auto;
 	color:white;
-	font-family: 'GloriaHallelujah', cursive;
+	font-family: 'GloriaHallelujah';
 
 }
 
@@ -119,12 +119,12 @@ body {
 }
 
 @font-face {
-	font-family: 'Horror Sketch';
+	font-family: 'HorrorSketch';
 	src:url(../fonts/HorrorSketch.ttf);
 }
 
 @font-face{
-	font-family:'Face Your Fears';
+	font-family:'FaceYourFears';
 	src:url(../fonts/FaceYourFears.ttf);
 }
 
