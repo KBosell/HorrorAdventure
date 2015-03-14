@@ -4,7 +4,7 @@ body {
 	height:auto;
 	background-image:url(background_image.png);
 	background-repeat:no-repeat;
-    background-position: left top;
+    background-position: center;
  	background-size: 100% 100%;
     background-attachment: fixed;
 	color:white;
