@@ -4,9 +4,12 @@ body {
 	height:auto;
 	background-image:url(background_image.png);
 	background-repeat:no-repeat;
-	background-size:auto;
+    background-position: left top;
+ 	background-size: 100% 100%;
+    background-attachment: fixed;
 	color:white;
 	font-family: 'Gloria Hallelujah', cursive;
+
 }
 
 /*~~~~~~~~~~~~
@@ -108,22 +111,22 @@ body {
 
 @font-face {
 	font-family: 'YouDied';
-	src:url(../_fonts/Bloody/YouDied.ttf);
+	src:url(../fonts/Bloody/YouDied.ttf);
 }
 
 @font-face {
 	font-family: 'GloriaHallelujah';
-	src:url(../_fonts/Gloria_Hallelujah/GloriaHallelujah.ttf);
+	src:url(../fonts/Gloria_Hallelujah/GloriaHallelujah.ttf);
 }
 
 @font-face {
 	font-family: 'Horror Sketch';
-	src:url(../_fonts/Horror_Sketch/Horror Sketch.ttf);
+	src:url(../fonts/Horror_Sketch/Horror Sketch.ttf);
 }
 
 @font-face{
 	font-family:'Face Your Fears';
-	src:url(../_fonts/Face_Your_Fears/Face Your Fears.ttf);
+	src:url(../fonts/Face_Your_Fears/Face Your Fears.ttf);
 }
 
 
