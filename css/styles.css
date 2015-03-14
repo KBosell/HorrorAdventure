@@ -5,7 +5,7 @@ body {
 	background-image:url(background_image.png);
 	background-repeat:no-repeat;
     background-position: center;
- 	background-size: 100%;
+ 	background-size: auto;
 	color:white;
 	font-family: 'Gloria Hallelujah', cursive;
 
