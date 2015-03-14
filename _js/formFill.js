@@ -30,9 +30,9 @@ function changePage(loadPage){
 		break;
 
 		case 1: //Start
-			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
-			document.getElementById("Sound").innerHTML =
-				"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
+			// document.getElementById("Sound").innerHTML =
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -44,9 +44,9 @@ function changePage(loadPage){
 		break;
 		
 		case 2: //1-Story Start
-			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
-			document.getElementById("Sound").innerHTML =
-				"<source src=\"_audio/Purr.mp3\" type=\"audio/mpeg\">";
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Trees.png)';
+			// document.getElementById("Sound").innerHTML =
+			// 	"<source src=\"_audio/Purr.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"<input type=\"radio\" name=\"choice\" value=\"3\" checked> Go inside";
 			document.getElementById("buttonB").innerHTML = 
@@ -58,9 +58,9 @@ function changePage(loadPage){
 		break;
 		
 		case 3: //2-Go Inside
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"<input type=\"radio\" name=\"choice\" value=\"5\" checked> Keep going forward";
 			document.getElementById("buttonB").innerHTML = 
@@ -72,9 +72,9 @@ function changePage(loadPage){
 		break;
 		
 		case 4: //2-Walk Away
-			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Safe.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -82,13 +82,13 @@ function changePage(loadPage){
 			document.getElementById("title").innerHTML = 
 				"";
 			document.getElementById("story").innerHTML = 
-				"''Screw that!'' You yell at Mario glaring at him. ''This is stupid. Lets just go do what we planned and get out of here.'' You turn around and start walking away.</br></br>The three girls look at each other then nod and start to follow you. Spenser shrugs a bit and follows after you and the girls. Mario glares a bit and scoffs. ''Whatever man. I was just trying to take us on an adventure but you have to be a wuss about it.'' He says slamming the door and catching up with everyone.</br></br></br><div id=\"TheEnd\">THE END</div> ";
+				"''Screw that!'' You yell at Mario glaring at him. ''This is stupid. Lets just go do what we planned and get out of here.'' You turn around and start walking away.</br></br>The three girls look at each other then nod and start to follow you. Spenser shrugs a bit and follows after you and the girls. Mario glares a bit and scoffs. ''Whatever man. I was just trying to take us on an adventure but you have to be a wuss about it.'' He says slamming the door and catching up with everyone.</br></br></br><div id=\"Safe\">You Survive</div> ";
 		break;
 		
 		case 5: //3-Keep Going Forward
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"<input type=\"radio\" name=\"choice\" value=\"7\" checked> Let Mario eat it";
 			document.getElementById("buttonB").innerHTML = 
@@ -100,9 +100,9 @@ function changePage(loadPage){
 		break;
 
 		case 6: //3-Turn Around To Leave
-			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"<input type=\"radio\" name=\"choice\" value=\"7\" checked> Let Mario eat it";
 			document.getElementById("buttonB").innerHTML = 
@@ -114,9 +114,9 @@ function changePage(loadPage){
 		break;
 
 		case 7: //4-Let Mario Eat The Mushroom
-			//document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -128,9 +128,9 @@ function changePage(loadPage){
 		break;
 
 		case 8: //4-You Eat The Mushroom (Death)
-			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Death.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Trip.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML = 
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -142,9 +142,9 @@ function changePage(loadPage){
 		break;
 
 		case 9: //5-Continue(After Mario)
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"10\" checked> Keep Going";
 			document.getElementById("buttonB").innerHTML = 
@@ -156,9 +156,9 @@ function changePage(loadPage){
 		break;	
 
 		case 10: //6-Keep Going
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"12\" checked> Look Inside";
 			document.getElementById("buttonB").innerHTML = 
@@ -170,9 +170,9 @@ function changePage(loadPage){
 		break;	
 
 		case 11: //6-Look in Bathroom (Death)
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Death2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -184,9 +184,9 @@ function changePage(loadPage){
 		break;
 
 		case 12: //7-Look Inside
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Cafeteria.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"14\" checked> Open it";
 			document.getElementById("buttonB").innerHTML = 
@@ -198,9 +198,9 @@ function changePage(loadPage){
 		break;
 
 		case 13: //7-Keep Going
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/School_Hallway.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"14\" checked> Open it";
 			document.getElementById("buttonB").innerHTML = 
@@ -212,9 +212,9 @@ function changePage(loadPage){
 		break;
 
 		case 14: //8-Open It
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/KDeath.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"16\" checked> Go upstairs";
 			document.getElementById("buttonB").innerHTML = 
@@ -226,9 +226,9 @@ function changePage(loadPage){
 		break;	
 
 		case 15: //8-Ignore It
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Stairs.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"16\" checked> Go upstairs";
 			document.getElementById("buttonB").innerHTML = 
@@ -240,9 +240,9 @@ function changePage(loadPage){
 		break;	
 
 		case 16: //9-Go Upstairs
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Hallway2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"18\" checked> Face it";
 			document.getElementById("buttonB").innerHTML = 
@@ -254,9 +254,9 @@ function changePage(loadPage){
 		break;
 
 		case 17: //9-Go Downstairs (Death)
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Death2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -268,9 +268,9 @@ function changePage(loadPage){
 		break;
 
 		case 18: //10-Face it
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Hallway2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"20\" checked> Go out Window";
 			document.getElementById("buttonB").innerHTML = 
@@ -282,9 +282,9 @@ function changePage(loadPage){
 		break;	
 
 		case 19: //10-Cower Away
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Hallway2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"20\" checked> Go out Window";
 			document.getElementById("buttonB").innerHTML = 
@@ -296,9 +296,9 @@ function changePage(loadPage){
 		break;	
 
 		case 20: //11-Go out Window(Death)
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/WoodChipper.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -310,9 +310,9 @@ function changePage(loadPage){
 		break;	
 
 		case 21: //11-Stay in Hallway
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Hallway2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"22\" checked> Yell";
 			document.getElementById("buttonB").innerHTML = 
@@ -324,9 +324,9 @@ function changePage(loadPage){
 		break;	
 
 		case 22: //12-Yell
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Hallway2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"24\" checked> Try to Attack";
 			document.getElementById("buttonB").innerHTML = 
@@ -338,9 +338,9 @@ function changePage(loadPage){
 		break;	
 
 		case 23: //12-Ignore
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Hallway2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"22\" checked> Confront them";
 			document.getElementById("buttonB").innerHTML = 
@@ -352,9 +352,9 @@ function changePage(loadPage){
 		break;	
 
 		case 24: //13-Try to Attack(Death)
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Death2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -366,9 +366,9 @@ function changePage(loadPage){
 		break;	
 
 		case 25: //13-Run Away
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Hallway2.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"<input type=\"radio\" name=\"choice\" value=\"26\" checked> Save yourself?";
 			document.getElementById("buttonB").innerHTML = 
@@ -380,9 +380,9 @@ function changePage(loadPage){
 		break;	
 
 		case 26: //14-End-Save Yourself
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Death.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
@@ -394,9 +394,9 @@ function changePage(loadPage){
 		break;	
 
 		case 27: //14-End-Stay with Amanda
-			// document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_css/background_image2.png)';
+			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(_images/Backgrounds/Death.png)';
 			// document.getElementById("Sound").innerHTML =
-			// 	"<source src=\"../_audio/Water.mp3\" type=\"audio/mpeg\">";
+			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
 			document.getElementById("buttonA").innerHTML =
 				"";
 			document.getElementById("buttonB").innerHTML = 
