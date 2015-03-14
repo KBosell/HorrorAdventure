@@ -4,7 +4,7 @@ body {
 	height:auto;
 	background-image:url(background_image.png);
 	background-repeat:no-repeat;
-	background-size:320px;
+	background-size:auto;
 	color:white;
 	font-family: 'Gloria Hallelujah', cursive;
 }
