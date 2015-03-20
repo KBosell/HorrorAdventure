@@ -21,6 +21,8 @@
 	<gap:plugin name="org.apache.cordova.vibration" source="plugins.cordova.io" version="0.3.11" />
 
 	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
+
+	<gap:plugin name="nl.x-services.plugins.insomnia" />
  
 	<gap:plugin name="org.apache.cordova.splashscreen" source="plugins.cordova.io" version="0.3.4" />
 
