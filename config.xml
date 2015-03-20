@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<widget xmlns   = "http://www.w3.org/ns/widgets"
+		xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "com.kelseybosell.horroradventure"
+		versionCode = "10"
+		version     = "1.0.0" >
+
+		<!-- versionCode is optional and Android only -->
+
+	<name>Horror Adventure</name>
+
+	<description>
+		Can you survive a child's game?
+	</description>
+
+	<author href="https://build.phonegap.com" email="xxpanther.lionxx@gmail.com">
+		Kelsey Bosell
+	</author>
+
+</widget>
+
+<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+
+<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+
+	<platform name="android">
+              <icon src="images/Backgrounds/Splash.png" density="ldpi" />
+              <icon src="images/Backgrounds/Splash.png" density="mdpi" />
+              <icon src="images/Backgrounds/Splash.png" density="hdpi" />
+              <icon src="images/Backgrounds/Splash.png" density="xhdpi" />
+     </platform>
+
+<preference name="SplashScreen" value="foo" />
+<preference name="SplashScreenDelay" value="10000" />
+
+
+<script src="js/cordova.js"></script>
