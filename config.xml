@@ -18,20 +18,3 @@
 	</author>
 
 </widget>
-
-<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
-
-<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
-
-	<platform name="android">
-              <icon src="images/Backgrounds/Splash.png" density="ldpi" />
-              <icon src="images/Backgrounds/Splash.png" density="mdpi" />
-              <icon src="images/Backgrounds/Splash.png" density="hdpi" />
-              <icon src="images/Backgrounds/Splash.png" density="xhdpi" />
-     </platform>
-
-<preference name="SplashScreen" value="foo" />
-<preference name="SplashScreenDelay" value="10000" />
-
-
-<script src="js/cordova.js"></script>
