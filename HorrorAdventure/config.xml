@@ -9,4 +9,28 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    	<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+
+    	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
+
+    	<gap:plugin name="nl.x-services.plugins.insomnia" />
+     
+    	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+
+    		<platform name="android">
+    	              <icon src="images/Backgrounds/Splash.png" density="ldpi" />
+    	              <icon src="images/Backgrounds/Splash.png" density="mdpi" />
+    	              <icon src="images/Backgrounds/Splash.png" density="hdpi" />
+    	              <icon src="images/Backgrounds/Splash.png" density="xhdpi" />
+    	     </platform>
+
+    	<preference name="SplashScreen" value="images/Backgrounds/Splash.png" />
+    	<preference name="SplashScreenDelay" value="10000" />
+
+    	
+
+    	<feature name="Insomnia">
+      		<param name="android-package" value="nl.xservices.plugins.Insomnia" />
+    	</feature>
+    
 </widget>
