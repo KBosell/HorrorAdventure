@@ -17,7 +17,7 @@
 		Kelsey Bosell
 	</author>
 
-	
+
 	<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 
 	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
@@ -29,7 +29,7 @@
 	              <icon src="images/Backgrounds/Splash.png" density="xhdpi" />
 	     </platform>
 
-	<preference name="SplashScreen" value="foo" />
+	<preference name="SplashScreen" value="images/Backgrounds/Splash.png" />
 	<preference name="SplashScreenDelay" value="10000" />
 
 
