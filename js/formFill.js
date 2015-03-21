@@ -18,6 +18,9 @@ function init(){
 	}
 
 	changePage(page);
+	screen.lockOrientation('portrait');
+	navigator.vibrate(500);
+
 }
 
 function changePage(loadPage){ 
