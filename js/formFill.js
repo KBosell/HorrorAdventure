@@ -28,6 +28,7 @@ function init(){
 
 function changePage(loadPage){ 
 	var Dovibrate = false;
+	alert(Dovibrate);
 	switch(loadPage){
 		case 0:
 			document.getElementById("buttonA").innerHTML = "ERROR - CASE 0";
