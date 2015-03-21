@@ -2,6 +2,8 @@ function init(){
 	var GET = {};
 	var Dotahvibrate = 0;
 
+	navigator.splashscreen.show();
+
 	document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
 		function decode(s) {
 			return decodeURIComponent(s.split("+").join(" "));
@@ -18,7 +20,7 @@ function init(){
 		page = parseInt(setPage);
 	}
 	Dotahvibrate = changePage(page);
-	navigator.notification.vibrate(Dotahvibrate);
+	navigator.vibrate(1000);
 	Dotahvibrate=0;
 }
 
