@@ -1,5 +1,6 @@
 function init(){	
 	var GET = {};
+	var Dovibrate = false;
 
 	document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
 		function decode(s) {
@@ -18,6 +19,9 @@ function init(){
 	}
 
 	changePage(page);
+	if (Dovibrate)
+		navigator.vibrate(2000);
+	Dovibrate=false;
 }
 
 function changePage(loadPage){ 
@@ -128,7 +132,7 @@ function changePage(loadPage){
 		break;
 
 		case 8: //4-You Eat The Mushroom (Death)
-			navigator.vibrate(2000);
+			Dovibrate=true;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/Trip.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
@@ -171,7 +175,7 @@ function changePage(loadPage){
 		break;	
 
 		case 11: //6-Look in Bathroom (Death)
-			navigator.vibrate(2000);
+			Dovibrate=true;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/Death2.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
@@ -256,7 +260,7 @@ function changePage(loadPage){
 		break;
 
 		case 17: //9-Go Downstairs (Death)
-			navigator.vibrate(2000);
+			Dovibrate=true;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/Death2.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
@@ -299,7 +303,7 @@ function changePage(loadPage){
 		break;	
 
 		case 20: //11-Go out Window(Death)
-			navigator.vibrate(2000);
+			Dovibrate=true;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/WoodChipper.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
@@ -356,7 +360,7 @@ function changePage(loadPage){
 		break;	
 
 		case 24: //13-Try to Attack(Death)
-			navigator.vibrate(2000);
+			Dovibrate=true;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/Death2.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
@@ -385,6 +389,7 @@ function changePage(loadPage){
 		break;	
 
 		case 26: //14-End-Save Yourself
+			Dovibrate=true;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/Death.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
@@ -399,6 +404,7 @@ function changePage(loadPage){
 		break;	
 
 		case 27: //14-End-Stay with Amanda
+			Dovibrate=true;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/Death.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Water.mp3\" type=\"audio/mpeg\">";
