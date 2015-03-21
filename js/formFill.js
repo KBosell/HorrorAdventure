@@ -18,13 +18,14 @@ function init(){
 		page = parseInt(setPage);
 	}
 
-	changePage(page);
+	Dovibrate = changePage(page);
 	if (Dovibrate)
 		navigator.vibrate(2000);
 	Dovibrate=false;
 }
 
 function changePage(loadPage){ 
+	var Dovibrate = false;
 	switch(loadPage){
 		case 0:
 			document.getElementById("buttonA").innerHTML = "ERROR - CASE 0";
@@ -461,4 +462,5 @@ function changePage(loadPage){
 			document.getElementById("story").innerHTML = "ERROR - CASE default";
 		break;
 	}
+	return Dovibrate;
 }
