@@ -18,7 +18,7 @@ function init(){
 		page = parseInt(setPage);
 	}
 	Dotahvibrate = changePage(page);
-	navigator.vibrate(Dotahvibrate);
+	navigator.notification.vibrate(Dotahvibrate);
 	Dotahvibrate=0;
 }
 
