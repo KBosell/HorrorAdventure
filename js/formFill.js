@@ -19,7 +19,8 @@ function init(){
 
 	changePage(page);
 	screen.lockOrientation('portrait');
-	if(true===true)
+	var fuckingwork = 10;
+	if(parseInt(fuckingwork)==10)
 	{
 	navigator.vibrate(500);
 }
