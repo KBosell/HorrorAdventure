@@ -18,9 +18,9 @@ function init(){
 		page = parseInt(setPage);
 	}
 	screen.lockOrientation('portrait');
-	Dotahvibrate = parseInt(changePage(page));
+/*	Dotahvibrate = parseInt(changePage(page));
 	navigator.vibrate(Dotahvibrate);
-	Dotahvibrate=0;
+	Dotahvibrate=0;*/
 }
 
 function changePage(loadPage){ 
