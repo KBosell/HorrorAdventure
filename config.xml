@@ -16,15 +16,13 @@
 	<author href="https://build.phonegap.com" email="xxpanther.lionxx@gmail.com">
 		Kelsey Bosell
 	</author>
+	<content src="index.html" />
+    <access origin="*" />
 
-
-	<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
-
-	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
-
-	<gap:plugin name="nl.x-services.plugins.insomnia" />
- 
+	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
+	<gap:plugin name="nl.x-services.plugins.insomnia" version="4.0.1" />
 	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+	<gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 
 		<platform name="android">
 	              <icon src="images/Backgrounds/Splash.png" density="ldpi" />
@@ -36,7 +34,7 @@
 	<preference name="SplashScreen" value="images/Backgrounds/Splash.png" />
 	<preference name="SplashScreenDelay" value="10000" />
 
-	
+
 
 	<feature name="Insomnia">
   		<param name="android-package" value="nl.xservices.plugins.Insomnia" />
