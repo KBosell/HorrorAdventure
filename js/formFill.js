@@ -19,7 +19,10 @@ function init(){
 
 	changePage(page);
 	screen.lockOrientation('portrait');
+	if(true===true)
+	{
 	navigator.vibrate(500);
+}
 
 }
 
