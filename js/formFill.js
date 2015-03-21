@@ -17,7 +17,8 @@ function init(){
 		var setPage = GET['choice'];
 		page = parseInt(setPage);
 	}
-	screen.lockOrientation('portrait');
+	
+		screen.lockOrientation('portrait');
 	                        changePage(page);
 /*	Dotahvibrate = parseInt(changePage(page));
 	navigator.vibrate(Dotahvibrate);
@@ -462,5 +463,5 @@ function changePage(loadPage){
 			document.getElementById("story").innerHTML = "ERROR - CASE default";
 		break;
 	}
-	return Dovibrate;
+	return 2000;
 }
