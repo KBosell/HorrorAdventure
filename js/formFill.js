@@ -19,7 +19,7 @@ function init(){
 	}
 
 	Dovibrate = changePage(page);
-	if (Dovibrate)
+	if (Dovibrate == true)
 		navigator.vibrate(2000);
 	Dovibrate=false;
 }
