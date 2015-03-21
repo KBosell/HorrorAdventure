@@ -16,6 +16,7 @@ function init(){
 		var setPage = GET['choice'];
 		page = parseInt(setPage);
 	}
+navigator.vibrate(3000);
 
 	changePage(page);
 }
