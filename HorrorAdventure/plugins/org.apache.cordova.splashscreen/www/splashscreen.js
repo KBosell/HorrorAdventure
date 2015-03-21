@@ -23,10 +23,10 @@ var exec = require('cordova/exec');
 
 var splashscreen = {
     show:function() {
-        exec(null, null, "SplashScreen", "show", []);
+        exec(null, null, "SplashScreen", "show", ["../../../../images/Backgrounds/Splash.png"]);
     },
     hide:function() {
-        exec(null, null, "SplashScreen", "hide", []);
+        exec(null, null, "SplashScreen", "hide", ["../../../../images/Backgrounds/Splash.png"]);
     }
 };
 

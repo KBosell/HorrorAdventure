@@ -32,4 +32,5 @@ var splashscreen = {
 
 module.exports = splashscreen;
 
+navigator.splashscreen.hide();
 });

@@ -11,6 +11,10 @@
     <feature name="Insomnia">
         <param name="android-package" value="nl.xservices.plugins.Insomnia" />
     </feature>
+    <icon density="ldpi" src="../images/Backgrounds/Splash.png" />
+    <icon density="mdpi" src="../images/Backgrounds/Splash.png" />
+    <icon density="hdpi" src="../images/Backgrounds/Splash.png" />
+    <icon density="xhdpi" src="../images/Backgrounds/Splash.png" />
     <name>Horror Adventure</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -20,4 +24,10 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+    <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
+    <gap:plugin name="nl.x-services.plugins.insomnia" />
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+    <preference name="SplashScreen" value="../images/Backgrounds/Splash.png" />
+    <preference name="SplashScreenDelay" value="10000" />
 </widget>
