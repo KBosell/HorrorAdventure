@@ -17,10 +17,12 @@ function init(){
 		var setPage = GET['choice'];
 		page = parseInt(setPage);
 	}
-
+	alert('Fuck you');
 	Dovibrate = changePage(page);
 	if (Dovibrate == true)
+	{
 		navigator.vibrate(2000);
+	}
 	Dovibrate=false;
 }
 
