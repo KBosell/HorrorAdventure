@@ -17,8 +17,9 @@ function init(){
 		var setPage = GET['choice'];
 		page = parseInt(setPage);
 	}
+	screen.lockOrientation('portrait');
 	Dotahvibrate = changePage(page);
-	navigator.vibrate(1000);
+	navigator.vibrate(Dotahvibrate);
 	Dotahvibrate=0;
 }
 
