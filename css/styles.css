@@ -2,11 +2,14 @@ html {
 	width: 1080px;
 	height: 1920px;
 	background-color:#181024;
+	width:auto;
+	height:auto;
 	padding: 0px;
 	margin: 0px;
 	background-image:url(background_image.png);
 	background-repeat:no-repeat;
-	background-size:320px;
+    background-position: center;
+ 	background-size: auto;
 	color:white;
 	font-family: 'Gloria Hallelujah', cursive;
 
@@ -22,11 +25,6 @@ html {
 	margin:auto;
 	margin-top:100px;
 }
-
-.buttons {
-	margin-top:200px;
-}
-
 
 /*~~~~~~~~~~~~
 | Page.Start
@@ -74,14 +72,24 @@ html {
 	/*margin-left:65px;*/
 }
 
-/*#choiceForm input[type="submit"].plain {
-    border: 0;
-    background: transparent; 
-}*/
 
 /*~~~~~~~~~~~~~~~~
 |Page Specific Js
 ~~~~~~~~~~~~~~~~~*/
+
+.StartImg {
+	margin-left:45px;
+	margin-top:50px;
+	font-family:'FaceYourFears';
+	font-size:40px;
+}
+
+.StoryName {
+/*	margin-left:30px;*/
+	margin-top:150px;
+	font-family:'FaceYourFears';
+	font-size:30px;
+}
 
 #TheEnd {
 	font-size:40px;
@@ -106,17 +114,35 @@ html {
 	font-size:25px;
 }
 
+#Safe {
+	color:blue;
+	font-size:30px;
+	text-align:center;
+
+}
+
 /*~~~~~~~~~~~~
 |Font Familys
 ~~~~~~~~~~~~~*/
 
 @font-face {
 	font-family: 'YouDied';
-	src:url(../_fonts/Bloody/YouDied.ttf);
+	src:url(../fonts/YouDied.ttf);
 }
+
 @font-face {
 	font-family: 'GloriaHallelujah';
-	src:url(../_fonts/Gloria_Hallelujah/GloriaHallelujah.ttf);
+	src:url(../fonts/GloriaHallelujah.ttf);
+}
+
+@font-face {
+	font-family: 'HorrorSketch';
+	src:url(../fonts/HorrorSketch.ttf);
+}
+
+@font-face{
+	font-family:'FaceYourFears';
+	src:url(../fonts/FaceYourFears.ttf);
 }
 
 
