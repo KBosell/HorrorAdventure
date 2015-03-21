@@ -17,17 +17,14 @@ function init(){
 		page = parseInt(setPage);
 	}
 
-	changePage(page);
 	screen.lockOrientation('portrait');
-	var fuckingwork = 10;
-	if(parseInt(fuckingwork)==10)
-	{
-	navigator.vibrate(500);
-}
+	var vib = changePage(page);
+	navigator.vibrate(parseInt(vib));
 
 }
 
 function changePage(loadPage){ 
+	var vab = 0;
 	switch(loadPage){
 		case 0:
 			document.getElementById("buttonA").innerHTML = "ERROR - CASE 0";
@@ -51,6 +48,7 @@ function changePage(loadPage){
 		break;
 		
 		case 2: //1-Story Start
+			vab = 500;
 			document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/Backgrounds/Trees.png)';
 			// document.getElementById("Sound").innerHTML =
 			// 	"<source src=\"_audio/Purr.mp3\" type=\"audio/mpeg\">";
@@ -457,5 +455,5 @@ function changePage(loadPage){
 			document.getElementById("story").innerHTML = "ERROR - CASE default";
 		break;
 	}
-	return 500;
+	return parseInt(vab);
 }
