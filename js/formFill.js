@@ -21,8 +21,8 @@ function init(){
 	if (Dovibrate == true)
 	{
 	alert("1" + Dovibrate);
-		navigator.vibrate(2000);
 	}
+		navigator.vibrate(2000);
 	Dovibrate=false;
 }
 
