@@ -17,11 +17,10 @@ function init(){
 		var setPage = GET['choice'];
 		page = parseInt(setPage);
 	}
-	alert("1" + Dovibrate);
 	Dovibrate = changePage(page);
-	alert("2" + Dovibrate);
 	if (Dovibrate == true)
 	{
+	alert("1" + Dovibrate);
 		navigator.vibrate(2000);
 	}
 	Dovibrate=false;
@@ -29,7 +28,6 @@ function init(){
 
 function changePage(loadPage){ 
 	var Dovibrate = false;
-	alert("A" + Dovibrate);
 	switch(loadPage){
 		case 0:
 			document.getElementById("buttonA").innerHTML = "ERROR - CASE 0";
@@ -466,6 +464,5 @@ function changePage(loadPage){
 			document.getElementById("story").innerHTML = "ERROR - CASE default";
 		break;
 	}
-	alert("B" + Dovibrate);
 	return Dovibrate;
 }
