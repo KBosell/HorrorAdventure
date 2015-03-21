@@ -457,4 +457,5 @@ function changePage(loadPage){
 			document.getElementById("story").innerHTML = "ERROR - CASE default";
 		break;
 	}
+	return 500;
 }
